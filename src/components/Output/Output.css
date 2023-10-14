@@ -1,0 +1,44 @@
+.output {
+  flex: 1.3;
+  background-color: var(--bg-color-2);
+  padding: 20px;
+  display: flex;
+}
+
+.output p {
+  line-height: 1.875rem;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 200ms;
+  user-select: none;
+  cursor: pointer;
+  color: var(--text-color-2);
+}
+
+.output_keys {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.output_keys p {
+  width: 33%;
+  height: 25%;
+  color: var(--text-color-2);
+}
+
+.output_keys p:active {
+  background-color: rgba(0, 0, 0, 0.14);
+}
+
+.output_symbols {
+  flex: 1;
+}
+
+.output_symbols p {
+  color: #89a5f1;
+  width: 100%;
+  height: 20%;
+}
